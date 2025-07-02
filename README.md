@@ -1,5 +1,3 @@
-mdx
-
 # SASS Guide
 
 > 이 프로젝트는 **Sass를 실제 프로젝트에서 테스트 할 수 있도록 세팅한 교육용 예제**입니다.
@@ -14,32 +12,34 @@ sass-guide/
 └── B-react-vite/       # React + Vite 기반 Sass 사용 예제
 ```
 
-### 🔰 A-non-react-html
+### [A] non-react ver(html)
 
-#### 📌 개요
+#### 개요
 
 * Vanilla HTML + SCSS 환경
 * VS Code 확장(Live Sass Compiler) 또는 Sass CLI를 통해 스타일 컴파일
 * 기본적인 변수, 믹스인, 네스팅, 파일 분할 학습에 적합
 
-#### ✅ 학습 포인트
+#### 학습 포인트
 
 * Sass 설치 없이 실습하는 방법
 * @use / @import 차이 체험
 * Partial 파일 관리 (\_variables.scss 등)
 
-### ⚛️ B-react-vite
+### [B] react-vite ver
 
-#### 📌 개요
+#### 개요
 
 * React + Vite + SCSS
 * 글로벌 SCSS 구조 학습
 
-#### ✅ 학습 포인트
+#### 학습 포인트
 
 * @use, @forward를 통한 모듈화 스타일 설계
 * main.scss를 통한 전역 스타일 관리
 * Vite 환경에서 sass 및 sass-embedded 설정
+  
+---
 
 ## 🧠 Sass 학습 키워드
 
@@ -49,6 +49,8 @@ sass-guide/
 * @use / @forward 모듈화된 스타일 시스템 구현
 * @if, @for 조건 분기 및 유틸리티 클래스 자동 생성 등 로직 기반 스타일
 * Partial 파일 \_파일명.scss으로 정의하여 개별 CSS로 컴파일되지 않도록 설정
+  
+---
 
 ## 🚀 실행 방법
 
@@ -64,6 +66,8 @@ bash
 * npm install
 * npm run dev
 * 버전에 따라 sass나 sass-embedded 중 하나 설치:  npm install -D sass (sass-embedded)
+  
+---
 
 ## 📌 참고
 
