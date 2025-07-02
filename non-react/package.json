@@ -1,0 +1,9 @@
+{
+  "name": "sass-guide-non-react",
+  "scripts": {
+    "sass": "sass src/scss/main.scss src/css/main.css --no-source-map --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
